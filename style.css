@@ -1,0 +1,411 @@
+/* FONTES */
+@font-face {
+    font-family: PoppinsB;
+    src: url(Font/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: SansB;
+    src: url(Font/OpenSans-Bold.ttf);
+}
+@font-face {
+    font-family: SansR;
+    src: url(Font/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: SansS;
+    src: url(Font/OpenSans-SemiBold.ttf);
+}
+@font-face {
+    font-family: PoppinsR;
+    src: url(Font/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: PoppinsS;
+    src: url(Font/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: RobotoB;
+    src: url(Font/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: RobotoM;
+    src: url(Font/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: RobotoR;
+    src: url(Font/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: RobotoS;
+    src: url(Font/RobotoMono-SemiBold.ttf);
+}
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+/* Fim do reset */
+
+.email_numero {
+    background-color: #106EEA;
+    display: flex;
+    height: 20px;
+    padding: 20px;
+}
+
+.email {
+    margin-left: 213px;
+    color: white;
+    font: 400 15px 'SansR', sans-serif;
+}
+
+.numero {
+    margin-left: 220px;
+    color: white;
+    font: 400 15px 'SansR', sans-serif;
+}
+
+.logo {
+    display: flex;
+    margin-left: 230px;
+}
+
+.logo .nome {
+    font: 700 45px 'PoppinsB' , sans-serif;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    
+}
+
+.item {
+    padding: 30px;
+    padding-top: 45px;
+    font: 400 20px 'SansR', sans-serif;
+    color: black;
+}
+
+/* Início da primeira section / texto por cima da imagem */
+.texto_imagem {
+    background-image: url(Img/Vitral.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.titulo {
+    color: #000000;
+    position: absolute;
+    left: 955px;
+    top: 265px;
+    font: 700 60px 'PoppinsB' , sans-serif;
+}
+
+.subtitulo {
+    color: #000000;
+    position: absolute;
+    left: 880px;
+    top: 380px;
+    font: 400 41px 'Poppins' , sans-serif;
+}
+/* Fim da primeira section / texto por cima da imagem*/
+
+
+
+/* Início Sobre Nós Texto */
+ .um-pouco-sobre-nos {
+    display: flex;
+    font: 700 22px 'RobotoM', sans-serif; margin-left: 220px;  margin-top: 240px;
+ }
+
+
+.sobre_nos {
+    color: #106EEA;
+}
+
+
+.texto-sobrenos{
+    text-align: justify; font:'sans' sans-serif;padding-left: 180px; position: absolute; margin-top:20px; margin-right: 790px; font-size: 20px;
+}
+
+.imgum{position: absolute; width:480px; height: 600px;
+    border-radius: 10px; margin-left: 850px; margin-top: -105px;
+}
+
+/* Fim Sobre Nós Texto */
+
+
+/* Início Icones e Caixas */
+
+.caixas{
+    display: flex;
+}
+.icon{
+    width: 100px;
+}
+#CaixaCaixa .numero{
+    font: 700 33px 'SansS', sans-serif;
+    line-height: 45px;
+    margin-right: 220px;
+    color: #000000;
+}
+#CaixaCaixa .sub{
+    font: 400 24px 'RobotoR', sans-serif;
+    line-height: 28px;
+}
+#CaixaCaixa .caixa{
+    background-color: #ffffff;
+    border: 1px solid #8CA9CE;
+    border-radius: 10px;
+    width: 254px;
+    height: 244px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+#CaixaCaixa {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 600px;
+}
+
+/* Fim Icones e Caixas */
+
+
+
+#servicos .Ns, #equipe .titulo{
+    font: 700 35px 'RobotoM', sans-serif;
+    line-height: 41px;
+}
+#servicos .texto, #equipe .texto{
+    width: 856px;
+    font: 400 24px 'SansS',sans-serif;
+    line-height: 33px;
+    text-align: center;
+}
+#servicos, #equipe{
+    margin-top: 170px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+}
+#caixa-baixo .texto{
+    font: 600 24px 'RobotoR', sans-serif;
+    line-height: 28px;
+    width: 230px
+}
+#caixa-baixo .caixa{
+    height: 194px;
+    width: 274px;
+    border: 1px solid #8CA9CE;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#caixa-baixo{
+    margin: 0 85px;
+    flex-wrap: wrap;
+    gap: 87px;
+    justify-content: center;
+    margin-top: 71px;
+    padding-bottom: 101px;
+}
+
+
+.NE_titulo {
+    font: 700 35px 'RobotoM', sans-serif;
+}
+
+
+.one{
+    border-bottom: solid 2px #1150A3;
+    ;
+}
+.pessoas{
+    margin-top: 84px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.pessoa .pessoa_titulo{
+font: 700  24px 'PoppinsB',sans-serif;
+line-height: 36px;
+text-align: center;
+}
+.pessoa .texto{
+
+    font: 400 19px 'RebotoR',sans-serif;
+line-height: 22px;
+text-align: center;
+}
+.pessoa{
+    border: 1px solid #000000;
+    border-radius: 7px;
+}
+.pessoa .conteudo{
+    padding: 28px 0;
+}
+#baixo .texto{
+font: 400 24px 'SansS',sans-serif;
+    line-height: 33px;
+    text-align: justified;
+}
+#baixo .conteudo{
+    margin: 62px 182px;
+}
+.two{
+    border-bottom:  solid #1150A3;
+}
+#contato .titulo_contato{
+    font: 700 35px 'RebotoB',sans-serif;
+    line-height: 41px;
+    text-align: center;
+}
+#contato .texto{
+    font: 400 24px 'SansS',sans-serif;
+    line-height: 33px;
+    text-align: center;
+    margin: 5px 320px;
+}
+#contato{
+    margin-top: 182px;
+}
+.endereco .titulo_endereco{
+    font: 600 30px 'RebotoB',sans-serif;
+    line-height: 35px;
+    text-align: center;
+}
+.endereco .texto{
+    margin-top: 20px;
+    font: 400 30px 'RebotoR',sans-serif;
+
+    line-height: 35px;
+    text-align: center; 
+    width: 303px;   
+}
+.endereco{
+    border: 1.23px solid #8CA9CE;
+    padding: 130px 58px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#end-cont{
+    margin: 0 182px;
+}
+input{
+    background-color: #E5E5E5;
+}
+#seu_nome, #email{
+    width: 274px;
+    height: 63px;
+    border-radius: 15px;
+}
+#seu_nome, #email, #assunto, #msg{
+    font-family: Roboto-b;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 35px;
+    text-align: left;
+    color: #C1C1C1;
+    padding: 0 21px;
+}
+#assunto{
+    width: 587px;
+    height: 63px;
+    border-radius: 15px;
+}
+#msg{
+    width: 587px;
+    height: 159px;
+    border-radius: 15px;
+}
+form{
+    width: 587px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 39px;
+    justify-content: center;
+}
+#end-cont{
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    font-family: Roboto-b;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 35px;
+    text-align: center;
+    color: white;
+    background-color: #106EEA;
+    border-radius: 15px;
+    padding: 15px 45px;
+    align-self: center;
+}
+footer .container{
+    background-color: #1150A3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 55px;
+    margin-top: 135px;
+}
+footer .menu_2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+footer .item2{
+    font: 600 25px 'SansS',sans-serif;
+    line-height: 34px;
+    text-align: center;
+    color: white;
+}
+.rede-logos{
+    margin-top: 60px;
+    margin-right:0px;
+    display: flex;
+    gap: 10px;
+}
+.titulo_redes{
+    color: white;
+    font: 600 28px 'SansS',sans-serif;
+    line-height: 0px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+
+.logo1{
+    width: 62px;
+}
+
+
